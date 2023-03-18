@@ -38,6 +38,8 @@ def init():
         bodys[i].label.visible = False
         bodys[i].body.clear_trail()
         bodys[i].__init__(planet["ID"], planet["name"], planet["mass"], planet["radius"], planet["color"], t_start)
+    scene.range = 1.2*mag(bodys[-1].pos)
+    scene.forward = vec(0, 0, -1)
     checkbox_label.checked = True
     checkbox_trail.checked = True
     slider_trail.value = trail_length
