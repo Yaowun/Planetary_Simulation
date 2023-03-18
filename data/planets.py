@@ -1,9 +1,15 @@
 import numpy as np
 from vpython import vec
 
-# Sun reference: https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html
-# Planets reference: https://nssdc.gsfc.nasa.gov/planetary/factsheet/
-# mass [kg], radius [km]
+# Sun: https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html
+# Mercury: https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html
+# Venus: https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html
+# Earth: https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html
+# Mars: https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html
+# Jupiter: https://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html
+# Saturn: https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html
+# Uranus: https://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html
+# Neptune: https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html
 
 Sun = {"ID": 10, "name": "Sun", "mass": 1988500e24, "radius":695700, "color": vec( 1, .6, .4)}
 Mercury = {"ID": 199, "name": "Mercury", "mass": 0.33010e24, "radius":2439.7, "color": vec(.8, .8, .8)}
