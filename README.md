@@ -48,3 +48,5 @@ v = vec(q["vx"].to("km / s").value[0], q["vy"].to("km / s").value[0], q["vz"].to
 ### 成果
 依照上述獲取太陽及行星初始參數，使用 Vpython 套件即可模擬太陽系的行星軌道運動。
 ![planetary orbit](./fig/screenshot.png)
+
+https://github.com/Yaowun/Planetary_Simulation/assets/90306375/785e2235-a751-450e-b35b-3d85e2e986a3
